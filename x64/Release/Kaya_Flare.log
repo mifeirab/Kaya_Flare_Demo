@@ -1,0 +1,36 @@
+﻿生成启动时间为 2018/9/27 16:31:47。
+     1>项目“D:\Capture_Kaya_Flare\Qt_Version\Kaya_Flare\Kaya_Flare.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles\Release /I.\GeneratedFiles /I. /I..\..\..\opencv\build\include /IHeader /IHeader\include /I..\..\..\QT\QT5.9.6\5.9.6\MSVC2013_64\include /I..\..\..\QT\QT5.9.6\5.9.6\MSVC2013_64\include\QtWidgets /I..\..\..\QT\QT5.9.6\5.9.6\MSVC2013_64\include\QtGui /I..\..\..\QT\QT5.9.6\5.9.6\MSVC2013_64\include\QtANGLE /I..\..\..\QT\QT5.9.6\5.9.6\MSVC2013_64\include\QtCore /Irelease /I"..\..\..\QT\QT5.9.6\5.9.6\MSVC2013_64\mkspecs\win32-msvc" /nologo /W3 /WX- /MP /O2 /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:rvalueCast -Zc:inline -Zc:strictStrings -w34100 -w34189 -w44996 kaya_flare_camera_control.cpp main.cpp mainwindow.cpp .\GeneratedFiles\Release\moc_kaya_flare_camera_control.cpp .\GeneratedFiles\Release\moc_mainwindow.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“-Zc:inline”
+     1>cl : 命令行 warning D9002: 忽略未知选项“-Zc:inline”
+         kaya_flare_camera_control.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“-Zc:inline”
+     1>kaya_flare_camera_control.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cpp
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\kaya_flare_camera_control.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (kaya_flare_camera_control.cpp)
+     1>cl : 命令行 warning D9002: 忽略未知选项“-Zc:inline”
+     1>cl : 命令行 warning D9002: 忽略未知选项“-Zc:inline”
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (main.cpp)
+         mainwindow.cpp
+         moc_kaya_flare_camera_control.cpp
+     1>mainwindow.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\generatedfiles\release\../../kaya_flare_camera_control.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (.\GeneratedFiles\Release\moc_kaya_flare_camera_control.cpp)
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (mainwindow.cpp)
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\kaya_flare_camera_control.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (mainwindow.cpp)
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\kaya_flare_camera_control.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (main.cpp)
+         moc_mainwindow.cpp
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\generatedfiles\release\../../mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (.\GeneratedFiles\Release\moc_mainwindow.cpp)
+     1>d:\capture_kaya_flare\qt_version\kaya_flare\kaya_flare_camera_control.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (.\GeneratedFiles\Release\moc_mainwindow.cpp)
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"release\\Kaya_Flare.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\QT\QT5.9.6\5.9.6\MSVC2013_64\lib /LIBPATH:C:\openssl\lib /LIBPATH:C:\Utils\my_sql\my_sql\lib /LIBPATH:C:\Utils\postgresql\pgsql\lib /LIBPATH:D:\Qt\Qt5.9.6\5.9.6\msvc2013_64\lib /LIBPATH:D:\opencv\build\x64\vc12\lib /LIBPATH:.\Lib_KAYA D:\QT\QT5.9.6\5.9.6\MSVC2013_64\lib\qtmain.lib shell32.lib D:\opencv\build\x64\vc12\lib\opencv_ts300.lib D:\opencv\build\x64\vc12\lib\opencv_ts300d.lib D:\opencv\build\x64\vc12\lib\opencv_world300.lib D:\opencv\build\x64\vc12\lib\opencv_world300d.lib .\Lib_KAYA\clserkyi.lib .\Lib_KAYA\KYFGLib.lib D:\QT\QT5.9.6\5.9.6\MSVC2013_64\lib\Qt5Widgets.lib D:\QT\QT5.9.6\5.9.6\MSVC2013_64\lib\Qt5Gui.lib D:\QT\QT5.9.6\5.9.6\MSVC2013_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\Kaya_Flare.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Release\kaya_flare_camera_control.obj
+         x64\Release\main.obj
+         x64\Release\mainwindow.obj
+         x64\Release\moc_kaya_flare_camera_control.obj
+         x64\Release\moc_mainwindow.obj
+         Kaya_Flare.vcxproj -> D:\Capture_Kaya_Flare\Qt_Version\Kaya_Flare\release\Kaya_Flare.exe
+     1>已完成生成项目“D:\Capture_Kaya_Flare\Qt_Version\Kaya_Flare\Kaya_Flare.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.38
